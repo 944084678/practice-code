@@ -51,3 +51,10 @@ for top,hot in zip(tops,hots):
 	i=i+1
 	
 workbook.save(file)
+
+
+
+    主要实现按照指定时间爬取百度风云榜单，并保存在本地的xlsx文件中。
+主要遇到的问题：
+    1.网页解析
+    2.爬下来的标题字体转化
